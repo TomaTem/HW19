@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Калькулятор</title>
+</head>
+<body>
+    <div>
+        <input type="text" class="sum" tabindex="1"> + <input type="text" class="sum" tabindex="2">
+        <button style="width:30px" onclick="Calc.sum()" tabindex="3">=</button>
+        <span id="sum-res"></span>
+    </div>
+    
+    <div>
+        <input type="text" class="sub" tabindex="4"> - <input type="text" class="sub" tabindex="5">
+        <button style="width:30px" onclick="Calc.sub()" tabindex="6">=</button>
+        <span id="sub-res"></span>
+    </div>
+    
+    <div>
+        <input type="text" class="mul" tabindex="7"> * <input type="text" class="mul" tabindex="8">
+        <button style="width:30px" onclick="Calc.mul()" tabindex="9">=</button>
+        <span id="mul-res"></span>
+    </div>
+    
+    <div>
+        <input type="text" class="del" tabindex="10"> / <input type="text" class="del" tabindex="11">
+        <button style="width:30px" onclick="Calc.del()" tabindex="12">=</button>
+        <span id="del-res"></span>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
